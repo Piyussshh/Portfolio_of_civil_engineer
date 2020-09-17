@@ -1,0 +1,183 @@
+body {
+  background: url("const.jpg");
+  background-size: cover;
+  overflow: none;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+img:hover {
+  transform: rotate(360deg) scale(1.3);
+  /*transform: rotate(360deg);*/
+  opacity: 1;
+}
+a {
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+#MainContact {
+  padding-left: 54px;
+}
+#MainPara {
+  padding-left: 73px;
+}
+.home-section {
+  display: inline;
+  position: relative;
+}
+
+.Touch a {
+  display: inline;
+}
+.aside {
+  background: rgba(0, 43, 128, 0.8);
+  height: 850px;
+  color: rgba(255, 255, 255, 0.6);
+
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  position: relative;
+  width: auto;
+  padding-top: 40px;
+  padding-bottom: 0;
+  font-weight: 100;
+}
+.background-white {
+  background-color: white;
+}
+
+.gray {
+  color: rgba(255, 255, 255);
+}
+
+.rounded-circle {
+  width: 152px;
+  height: 152px;
+}
+.aside .fas,
+.fab {
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0.5;
+  transition: 0.5s;
+ 
+}
+
+.fab:hover {
+  opacity: 1;
+  transform: scale(1.3) rotate(360deg);
+}
+.fas:hover {
+  opacity: 1;
+  transform: scale(1.3) rotate(360deg);
+}
+.dark {
+  color: gray;
+}
+
+ul .fas {
+  font-size: 1.2rem;
+  color: rgba(0, 43, 128, 0.8);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+ul .fab {
+  font-size: 1.2rem;
+  color: rgba(0, 43, 128, 0.8);
+}
+
+li a {
+  color: rgba(0, 43, 128, 0.8);
+}
+li a:hover {
+  color: rgba(0, 43, 128, 0.8);
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contact-page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#contact ul {
+  list-style: none;
+  letter-spacing: 1px;
+}
+#contact table span {
+  color: rgba(0, 43, 128, 0.8);
+}
+#contact .home-section .fas {
+  color: rgba(0, 43, 128, 0.8);
+  transition: 0.5s;
+  font-size: 1.25rem;
+  opacity: 0.5;
+}
+#contact .home-section .fab {
+  color: rgba(0, 43, 128, 0.8);
+}
+#contact .aside .fas {
+  transition: 0.5s;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Academic>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#Academic ul {
+  list-style: none;
+}
+
+#Academic .fab {
+  transition: 0.5s;
+}
+#Academic .fas {
+  transition: 0.5s;
+}
+
+#Academic {
+  background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Academic .home-section .container .container {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sticky_notes.svg/1200px-Sticky_notes.svg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Academic>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#Training {
+  background-image: url("https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Training .home-section .fas {
+  transition: 0.5s;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Academic>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#Skills {
+  background-image: url("https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Skills .home-section {
+  padding-left: 87px;
+}
+#Skills .fas {
+  transition: 0.5s;
+  color: rgba(0, 43, 128, 0.8);
+}
+#Skills h1,
+h3 {
+  color: rgba(0, 43, 128, 0.8);
+}
+#Skills .aside .fas {
+  transition: 0.5s;
+  color: white;
+}
